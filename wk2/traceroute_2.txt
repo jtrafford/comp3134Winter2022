@@ -1,0 +1,20 @@
+E. Path to Destination - Local Host to Droplet Route Test
+
+c:\Windows\System32>tracert bestbuy.ca
+
+Tracing route to bestbuy.ca [23.200.224.211]
+over a maximum of 30 hops:
+
+  1     1 ms     1 ms     1 ms  dlinkrouter [192.168.0.1]
+  2    16 ms     9 ms    13 ms  38.113.181.254
+  3     5 ms     5 ms     5 ms  172.16.10.46
+  4     5 ms     4 ms     4 ms  te0-1-1-13.ccr31.yyz02.atlas.cogentco.com [38.122.69.137]
+  5     8 ms     5 ms     5 ms  ae-4.bar4.Toronto1.Level3.net [4.68.38.245]
+  6     *        *        *     Request timed out.
+  7    21 ms    20 ms    20 ms  4.35.104.190
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11    19 ms    19 ms    19 ms  a23-200-224-211.deploy.static.akamaitechnologies.com [23.200.224.211]
+
+Trace complete.

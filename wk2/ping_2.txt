@@ -1,0 +1,14 @@
+D. Ensure Server is Running -  Droplet Server Test
+
+ping google.ca
+
+Pinging google.ca [142.250.65.227] with 32 bytes of data:
+Reply from 142.250.65.227: bytes=32 time=26ms TTL=112
+Reply from 142.250.65.227: bytes=32 time=29ms TTL=112
+Reply from 142.250.65.227: bytes=32 time=26ms TTL=112
+Reply from 142.250.65.227: bytes=32 time=26ms TTL=112
+
+Ping statistics for 142.250.65.227:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 26ms, Maximum = 29ms, Average = 26ms
